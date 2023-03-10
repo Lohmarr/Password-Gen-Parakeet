@@ -38,5 +38,18 @@ if (!useLowCase && !useUpCase && !useNumbers && !useSpecial) {
   return ''
 }
 
-
+// build character set to use based on user input
+let chars = ''
+if (useLowCase) {
+  chars += lowCaseChars
+}
+if (useUpCase) {
+  chars += upCaseChars
+}
+if (useNumbers) {
+chars += numberChars
+}
+if (useSpecial) {
+chars += specialChars
+}
 }

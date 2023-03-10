@@ -12,3 +12,11 @@ function writePassword() {
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
+
+function generatePassword() {
+  // Define character sets
+  let lowCaseChars = 'abcdefghijklmnopqrstuvwxyz'
+  let upCaseChars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
+  let numberChars = '0123456789'
+  let specialChars = "!\"#$%&'()*+,-./:;<=>?@[\\]^_`{|}~"
+}

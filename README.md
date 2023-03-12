@@ -33,4 +33,3 @@ This password generator was built by Lohmar L'Amour as a project for the UNCC Sc
 License
 
 This project is licensed under the MIT license. See the LICENSE.md file for more details.
-Acknowledgements
